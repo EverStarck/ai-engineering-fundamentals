@@ -111,7 +111,7 @@ Make sure your `.dev.vars` has your OpenAI API key:
 OPENAI_API_KEY=sk-your-openai-key-here
 ```
 
-### `src/schemas.ts` (new file)
+### `src/schema.ts` (new file)
 
 TypeScript types for Excalidraw elements. These define the shape of the JSON that our tools produce. The actual tool schemas use Zod, but having TypeScript types is useful for the rest of the codebase:
 
